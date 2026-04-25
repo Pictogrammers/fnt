@@ -31,7 +31,7 @@ interface FntFont {
 }
 ```
 
-See [`shared.ts`](./shared.ts) for the full type definitions.
+See [`shared.ts`](./src/shared.ts) for the full type definitions.
 
 ---
 
@@ -152,3 +152,7 @@ function downloadFont(font, filename = 'font.fnt') {
   URL.revokeObjectURL(url);
 }
 ```
+
+## Fonts
+
+The fonts included in this repo are for testing only borrowed from the [Moddable SDK](https://github.com/Moddable-OpenSource/moddable).
