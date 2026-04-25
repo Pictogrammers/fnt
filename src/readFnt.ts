@@ -21,8 +21,8 @@
 // Parser for AngelCode BMFont binary format (.fnt)
 // Spec: https://www.angelcode.com/products/bmfont/doc/file_format.html
 
-export type { FntPadding, FntSpacing, FntInfo, FntCommon, FntChar, FntKerning, FntFont } from "./shared";
-import type { FntInfo, FntCommon, FntChar, FntKerning, FntFont } from "./shared";
+export type { FntPadding, FntSpacing, FntInfo, FntCommon, FntChar, FntKerning, FntFont } from "./shared.js";
+import type { FntInfo, FntCommon, FntChar, FntKerning, FntFont } from "./shared.js";
 
 const utf8 = new TextDecoder("utf-8");
 

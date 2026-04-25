@@ -1,8 +1,8 @@
 import * as fs from "fs";
 import * as path from "path";
 import { describe, it, expect, beforeAll } from "vitest";
-import { readFnt } from "../readFnt";
-import type { FntFont } from "../shared";
+import { readFnt } from "../readFnt.js";
+import type { FntFont } from "../shared.js";
 
 function readFntFile(filePath: string): FntFont {
   return readFnt(fs.readFileSync(filePath));

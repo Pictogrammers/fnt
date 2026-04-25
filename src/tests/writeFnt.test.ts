@@ -1,9 +1,9 @@
 import * as fs from "fs";
 import * as path from "path";
 import { describe, it, expect } from "vitest";
-import { readFnt } from "../readFnt";
-import { writeFnt } from "../writeFnt";
-import type { FntFont } from "./shared";
+import { readFnt } from "../readFnt.js";
+import { writeFnt } from "../writeFnt.js";
+import type { FntFont } from "../shared.js";
 
 const FONTS = path.resolve(__dirname, "fonts");
 const fontPath = (name: string) => path.join(FONTS, name);

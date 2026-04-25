@@ -1,8 +1,8 @@
 // Serializer for AngelCode BMFont binary format (.fnt)
 // Spec: https://www.angelcode.com/products/bmfont/doc/file_format.html
 
-export type { FntPadding, FntSpacing, FntInfo, FntCommon, FntChar, FntKerning, FntFont } from "./shared";
-import type { FntFont, FntInfo, FntCommon, FntChar, FntKerning } from "./shared";
+export type { FntPadding, FntSpacing, FntInfo, FntCommon, FntChar, FntKerning, FntFont } from "./shared.js";
+import type { FntFont, FntInfo, FntCommon, FntChar, FntKerning } from "./shared.js";
 
 const enc = new TextEncoder();
 

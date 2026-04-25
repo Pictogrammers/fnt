@@ -1,2 +1,2 @@
-export { readFnt } from './readFnt';
-export { writeFnt } from './writeFnt';
+export { readFnt } from './readFnt.js';
+export { writeFnt } from './writeFnt.js';

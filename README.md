@@ -2,7 +2,7 @@
 
 Parse and serialize the [AngelCode BMFont](https://www.angelcode.com/products/bmfont/doc/file_format.html) binary format (`.fnt`).
 
-Works in Node.js and the browser — no runtime dependencies.
+Supports Node.js and the browser. No runtime dependencies.
 
 ## Install
 
